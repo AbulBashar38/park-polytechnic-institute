@@ -1,21 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     color: black;
 }
-.nav-color{
+
+.nav-color {
     background-color: #0707146c
 }
-.hero-part{
+
+.hero-part {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.582);
 }
-.hero-part::before {    
+
+.hero-part::before {
     content: "";
-    background-image: url(../images/computerbg.jpg);
-    
+    background-image: url(../images/polytechnicBg.jpg);
+
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -25,6 +28,7 @@
     opacity: 0.65;
     z-index: -100;
 }
-.dark-bg{
+
+.dark-bg {
     background-color: rgba(0, 0, 0, 0.692);
 }
